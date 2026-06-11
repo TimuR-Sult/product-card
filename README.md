@@ -1,1 +1,1 @@
-# product-card
+# создание файла read.me
