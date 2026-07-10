@@ -1,3 +1,10 @@
+*,
+*::before
+*::after
+{
+  box-sizing: border-box
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   background-color: white;
@@ -5,8 +12,17 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: normal;
+  
 }
-
+.main {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: 790px 700px;
+  max-width: 1200px;
+  margin: 0 auto
+}
 .title {
   font-weight: 400;
   font-size: 70px;
@@ -16,13 +32,14 @@ body {
   text-align: center;
   }
 
-.product-items {
+.product-list {
   display: flex;
   justify-content: center;
   gap: 45px 45px;
   max-width: 1200px;
   flex-wrap: wrap;
   margin: 0 auto 116px;
+  
 }
 
 .product-card {
@@ -30,11 +47,13 @@ body {
   padding: 25px;
   background: #F7F7FA;
   border-radius: 1px;
+  position: relative;
+  z-index: 5;
 }
 
 .image-product {
   width: 100%;
-  margin: 0px auto;
+  margin: 10px auto;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -43,14 +62,15 @@ body {
   font-size: 12px;
   line-height: 24px;
   color: #A5A3B9;
-  padding-bottom: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .product-name {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  color: #515076;
   margin: 0px 0px 5px 0px;
 }
 
