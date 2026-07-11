@@ -1,4 +1,4 @@
-*,
+*
 *::before
 *::after
 {
@@ -12,8 +12,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: normal;
-  
 }
+
 .main {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
@@ -21,8 +21,9 @@ body {
   background-position-y: top;
   background-size: 790px 700px;
   max-width: 1200px;
-  margin: 0 auto
+  margin: 0 auto;
 }
+
 .title {
   font-weight: 400;
   font-size: 70px;
@@ -38,8 +39,7 @@ body {
   gap: 45px 45px;
   max-width: 1200px;
   flex-wrap: wrap;
-  margin: 0 auto 116px;
-  
+  margin: 0 auto 116px; 
 }
 
 .product-card {
