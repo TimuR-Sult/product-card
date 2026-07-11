@@ -17,11 +17,12 @@ body {
 .main {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
-  background-position-x: left;
+  background-position-x: 0%;
   background-position-y: top;
-  background-size: 790px 700px;
+  background-size: 850px 750px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0%;
 }
 
 .title {
