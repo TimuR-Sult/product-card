@@ -17,7 +17,7 @@ body {
 .main {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
-  background-position-x: 0%;
+  background-position-x: 23%;
   background-position-y: top;
   background-size: 850px 750px;
   max-width: 1200px;
