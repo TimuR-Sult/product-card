@@ -2,12 +2,23 @@
 *,
 *::before,
 *::after
-{
+  {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  }
 
+header {
+  display: flex;
+  gap: 50px;
+  margin: 20px 10px;
+  }
+
+button{
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #f8f8f9; 
+  }
 
 body {
   background-color: white;
@@ -15,7 +26,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: normal;
-}
+  }
 
 .main {
   background-image: url('images/background.png');
@@ -25,7 +36,7 @@ body {
   background-size: 850px 750px;
   max-width: 1300px;
   margin: 0 auto 116px
-}
+  }
 
 .main__title {
   font-weight: 400;
@@ -44,20 +55,20 @@ body {
   max-width: 1110px;
   flex-wrap: wrap;
   margin: 0 auto 85px; 
-}
+  }
 
 .card {
   width: 340px;
   padding: 25px;
   background: #F7F7FA;
   border-radius: 1px;
-}
+  }
 
 .card__image-product {
   width: 100%;
   text-align: center;
   margin-bottom: 15px;
-}
+  }
 
 .card__skin-type {
   font-size: 12px;
@@ -65,38 +76,38 @@ body {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 400;
-}
+  }
 
 .card__product-name {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   margin: 0px 0px 5px 0px;
-}
+  }
 
 .card__product-info {
   margin: 0 0 15px 0;
   line-height: 18px;
-}
+  }
 
 .card__product-composition {
   list-style-type: circle;
   margin-bottom: 25px;
   line-height: 24px;
-}
+  }
 
 .price{
   display: flex;
   justify-content: space-between;
-}
+  }
 
 .price__text {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #515076;
-}
+  }
 
 .price__tag {
   font-size: 20px;
-}
+    }
