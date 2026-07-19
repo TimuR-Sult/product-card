@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *,
 *::before,
 *::after
 {
-  box-sizing: border-box
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   background-color: white;
@@ -21,66 +23,63 @@ body {
   background-position-x: 23%;
   background-position-y: top;
   background-size: 850px 750px;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto 116px
 }
 
-.title {
+.main__title {
   font-weight: 400;
   font-size: 70px;
-  line-height: 78px;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 220px;
+  padding-bottom: 110px;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 60px;
+  margin: 0 auto 0;
+  letter-spacing: normal;
   }
 
 .product-list {
   display: flex;
   justify-content: center;
   gap: 45px 45px;
-  max-width: 1200px;
+  max-width: 1110px;
   flex-wrap: wrap;
-  margin: 0 auto 116px; 
+  margin: 0 auto 85px; 
 }
 
-.product-card {
-  width: 314px;
+.card {
+  width: 340px;
   padding: 25px;
   background: #F7F7FA;
   border-radius: 1px;
 }
 
-.image-product {
+.card__image-product {
   width: 100%;
-  margin: 10px auto;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.skin-type {
+.card__skin-type {
   font-size: 12px;
-  line-height: 24px;
   color: #A5A3B9;
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 400;
 }
 
-.product-name {
+.card__product-name {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   margin: 0px 0px 5px 0px;
 }
 
-.product-info {
+.card__product-info {
   margin: 0 0 15px 0;
   line-height: 18px;
 }
 
-.product-composition {
+.card__product-composition {
   list-style-type: circle;
   margin-bottom: 25px;
   line-height: 24px;
@@ -91,13 +90,13 @@ body {
   justify-content: space-between;
 }
 
-.price-text {
+.price__text {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #515076;
 }
 
-.price-tag {
+.price__tag {
   font-size: 20px;
 }
