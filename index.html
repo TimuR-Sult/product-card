@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <button>Сменить цвет первой карточки</button>
-  <button>Сменить цвет всех карточек</button>
-  <button>Открыть google.com</button>
-  <button>Вывести сообщения в консоль</button>
-</header>
   <main class="main">
     <h1 class="main__title"> Выбери свой продукт</h1>
     <div class="product-list">
-                  <div class="card">
+      <div class="cards-control">
+        <button class="change-color_btn">Сменить цвет первой карточки</button>
+        <button class="change-all-color_btn">Сменить цвет всех карточек</button>
+        <button class="open-google_btn">Открыть google.com</button>
+        <button class="output-console-log">Вывести сообщения в консоль</button>
+        <button class="toggle-btn">Меняю цвет на ...</button>
+      </div>
+      <div class="card">
         <img class="card__image-product" src='images/mousse.jpg' alt="Товар увлажняющий мусс" width="290"/>
         <h2 class="card__skin-type">для нормальной кожи</h2>
         <h3 class="card__product-name">Увлажняющий мусс</h3>
@@ -98,5 +99,6 @@
       </div>
     </div>
   </main>
+  <script src="main.js"></script>
 </body>
 </html>

@@ -8,16 +8,33 @@
   padding: 0;
   }
 
-header {
+.cards-control {
   display: flex;
   gap: 50px;
   margin: 20px 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   }
 
-button{
+  
+button {
   padding: 10px;
-  border-radius: 2px;
-  background-color: #f8f8f9; 
+  color: #515076;
+  border-color: #d1d1eb;
+  background-color: #e5effd; 
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  }
+
+.toggle-btn  {
+  background-color: #e5effd;
+  }
+
+.toggle-btn.red  {
+  background-color: #672828;
+  color: #f7f4f4;
   }
 
 body {
@@ -26,6 +43,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: normal;
+  font-weight: normal;
   }
 
 .main {
