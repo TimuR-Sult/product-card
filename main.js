@@ -27,7 +27,7 @@ openGoogleButton.addEventListener ('click', GoogleOpen);
 
 function GoogleOpen () {
 const answer = confirm ('Вы действительно хотите перейти на Google.com?');
-if (answer === true) {window.open (GoogleURL)}}
+if (answer === true) {window.open (GoogleURL)}};
 
 //Вывод сообщение в консоль
 
@@ -36,14 +36,14 @@ OutputConsoleLogBtn.addEventListener ('click', () => OutputConsoleLog ('Выво
 function OutputConsoleLog (messege) {
   alert (messege)
   console.log (messege)
-} 
+};
 
 //При наведении на заголовок выводиться название заголовка
 
 const TitleMain = document.querySelector ('.main__title');
 TitleMain.addEventListener ('mouseenter', () => {
-  console.log (TitleMain)
-})
+  console.log (TitleMain.textContent)
+});
 
 //Изменение цвета кнопки
 
