@@ -37,18 +37,18 @@ cash (40)
 //Функция определения оценки на экзамене
 
 function reportCard (points) {
-  if (points >= 40) {
-    console.log (`Ты не сдал экзамен`)
-  } else if (points >= 60) {
-    console.log ('Твоя оценка - удовлетворительно')
-  } else if (points >= 80) {
-    console.log ('Твоя оценка - хорошо!')
-  } else if (points >= 100) {
+  if (points <= 100 && points > 80) {
     console.log ('Твоя оценка - Отлично! Поздравляем!')
+  } else if (points <= 80 && points > 60) {
+    console.log ('Твоя оценка - хорошо!')
+  } else if (points <= 60 && points > 40) {
+    console.log ('Твоя оценка - удовлетворительно')
+  } else if (points <= 40) {
+    console.log (`Ты не сдал экзамен`)
   }
 }
 
-reportCard(43)
+reportCard(78)
 
 // Создать 3 переменных вывести в консоль
 
